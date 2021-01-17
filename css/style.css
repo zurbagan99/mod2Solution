@@ -1,0 +1,100 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+	
+	background-image: url(https://img.freepik.com/free-vector/lineart-fast-food-pattern_67419-7.jpg?size=626&ext=jpg);
+
+
+}
+
+h1{
+	text-align: center;
+	font-size: 175%;
+	background-color: #F0FFF0;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left:auto;
+		width: 45%;
+	
+}
+.col{
+	background-color: #FFEBCD;
+	
+	box-sizing: border-box;
+	
+	border: black solid 1px;
+	
+
+}
+
+.description{
+	padding: 10px;
+}
+#title1{
+	font-size:125%;
+	font-weight: bold;
+	box-sizing: border-box;
+	text-align: center;
+border:black solid 1px;
+background-color: #E9967A;
+width: 30%;
+
+margin:0;
+float:right;
+
+
+}
+#title2{
+	font-size:125%;
+	font-weight: bold;
+	text-align: center;
+border:black solid 1px;
+background-color: #BDB76B;
+width: 30%;
+margin:0;
+float:right;
+}
+#title3{
+	font-size:125%;
+	font-weight: bold;
+	text-align: center;
+border:black solid 1px;
+background-color: #8B0000;
+color:white;
+width: 40%;
+margin:0;
+float:right;
+}
+
+@media (min-width: 992px){
+	.col{
+		float: left;
+        width: 30%;
+        height: 270px;
+        margin:1.6%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.midFirstRow{
+		float: left;
+		width: 47%;
+		margin: 1.5%;
+		height: 230px;
+		
+		
+	}
+	.midSecondRow{
+		float: left;
+		margin: 16px;
+
+	}
+}
+
+@media (max-width: 767px){
+	.col{
+	     margin:7%;
+	     
+	}
+}
